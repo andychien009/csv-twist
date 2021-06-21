@@ -24,16 +24,16 @@ arguments to see a preview {--data-file, --data-file-sep, --def-file,
 Once satisified supply the {--out-file} flag and the output parameter
 
 ## Arguments Input
-  -h, --help            show this help message and exit
-  --def-file DEF_FILE   File containing the destination column definition
-  --def-file-sep DEF_FILE_SEP
-                        Separator for the definition file
-  --data-file DATA_FILE
-                        The data file to be adjusted in accordance to the
-                        column specification outlined by --def-file
-  --data-file-sep DATA_FILE_SEP
-                        Separator for the data file
-  --out-file OUT_FILE   The final output of the process
+          -h, --help            show this help message and exit
+          --def-file DEF_FILE   File containing the destination column definition
+          --def-file-sep DEF_FILE_SEP
+                                Separator for the definition file
+          --data-file DATA_FILE
+                                The data file to be adjusted in accordance to the
+                                column specification outlined by --def-file
+          --data-file-sep DATA_FILE_SEP
+                                Separator for the data file
+          --out-file OUT_FILE   The final output of the process
 
 ## Known Issue
 This tool outputs header column in capital case. Take the header from
